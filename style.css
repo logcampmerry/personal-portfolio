@@ -1,0 +1,94 @@
+.header {
+	grid-area: head;
+
+}
+
+.navigation {
+	grid-area : navi;
+}
+
+.content {
+	grid-area: cont;
+}
+
+.footer {
+	grid-area: foot;
+}
+
+div {
+	text-align: center;
+	border : 1px solid black;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: grid;
+	margin: 0;
+	background: powderblue;
+	grid-template-areas:
+		'head head head head head head head head head head '
+		'navi  navi  navi  navi  navi  navi  navi navi  navi navi '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
+		'foot foot foot foot foot foot foot foot foot foot ';
+}
+	
+div.lpanel {
+	float: left;
+	margin-left: 10%;
+}
+
+div.cpanel {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+div.rpanel{
+	float: right;
+	margin-right: 10%;
+}
+	
+div.panels {
+	text-align: center;
+	margin: auto;
+}
+
+.panels > div{
+	width: 18%;
+	height: 700px;
+}
+
+.panels > div:hover{
+	width: 20%;
+	height: 700px;
+}
+
+
+nav {
+	display: block;
+	margin: 5px;
+}
+
+nav a {
+	padding: 3px;
+	margin: 3px;
+	font-size: 30px;
+	text-decoration: none;
+	border: 1px solid black;
+}
+
+img:hover {
+	opacity: 0.5;
+}
+
+p.headblurb {
+	
