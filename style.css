@@ -1,3 +1,4 @@
+/* STRUCTURE */
 .header {
 	grid-area: head;
 
@@ -9,6 +10,7 @@
 
 .content {
 	grid-area: cont;
+	background: powderblue;
 }
 
 .footer {
@@ -17,7 +19,6 @@
 
 div {
 	text-align: center;
-	border : 1px solid black;
 }
 
 html {
@@ -28,7 +29,7 @@ body {
 	height: 100%;
 	display: grid;
 	margin: 0;
-	background: powderblue;
+	background: #cfe8e7;
 	grid-template-areas:
 		'head head head head head head head head head head '
 		'navi  navi  navi  navi  navi  navi  navi navi  navi navi '
@@ -41,30 +42,65 @@ body {
 		'cont  cont  cont  cont  cont  cont  cont cont  cont cont '
 		'foot foot foot foot foot foot foot foot foot foot ';
 }
-	
+
+/* NAVBAR */
+nav {
+	display: block;
+	background: darkslategrey;
+}
+
+nav a {
+	padding: 5px;
+	margin: 6px;
+	font-size: 30px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: blue;
+	color: powderblue;
+}
+
+nav a:hover {
+	padding: 7px;
+	margin: 6px;
+	font-size: 30px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 15px;
+	background: powderblue;
+	color: blue;
+}
+
+/* HOMEPAGE */
 div.lpanel {
 	float: left;
 	margin-left: 10%;
+	border: 2px solid white;
 }
 
 div.cpanel {
 	display: inline-block;
 	margin: 0 auto;
+	border: 2px solid white;
 }
 
 div.rpanel{
 	float: right;
 	margin-right: 10%;
+	border: 2px solid white;
 }
 	
 div.panels {
 	text-align: center;
 	margin: auto;
+	padding: 5px;
 }
 
 .panels > div{
 	width: 18%;
 	height: 700px;
+	background: #081545;
+	color: white;
 }
 
 .panels > div:hover{
@@ -72,23 +108,31 @@ div.panels {
 	height: 700px;
 }
 
-
-nav {
-	display: block;
-	margin: 5px;
-}
-
-nav a {
-	padding: 3px;
-	margin: 3px;
-	font-size: 30px;
-	text-decoration: none;
-	border: 1px solid black;
-}
-
-img:hover {
+img.panelcover:hover {
 	opacity: 0.5;
+	width: 100%;
+}
+
+img.panelcover {
+	border: 1px solid white;
+	width: 100%;
 }
 
 p.headblurb {
+	font-size: 20px;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+
+/* ABOUT ME */
+
+
+/* PROJECTS */
+
+
+
+/* CONTACT */
+img.portrait {
+	width: 10%;
+	float: left;
+	margin-left: 10%;
 	
