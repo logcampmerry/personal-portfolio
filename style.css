@@ -73,6 +73,16 @@ nav a:hover {
 	color: #143f85;
 }
 
+.active {
+	border: 1px solid powderblue;
+	border-radius: 15px;
+}
+
+.active:hover {
+	border: 1px solid powderblue;
+	border-radius: 15px;
+}
+	
 /* HOMEPAGE */
 div.lpanel {
 	float: left;
@@ -129,7 +139,11 @@ p.headblurb {
 }
 
 /* ABOUT ME */
-
+p.abme {
+	font-size: 25px;
+	margin-left: 2%;
+	width: 75%;
+}
 
 /* PROJECTS */
 div.projects {
@@ -143,4 +157,10 @@ img.portrait {
 	width: 10%;
 	float: left;
 	margin-left: 10%;
-	
+	margin-top: 2%
+}
+
+ul {
+	font-size: 25px;
+	margin-left: 2%;
+}

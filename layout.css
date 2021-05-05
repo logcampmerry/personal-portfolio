@@ -10,11 +10,13 @@
 
 .content {
 	grid-area: cont;
-	background: #bce3e2;
+	/* background: #bce3e2; */
+	background: #cfe8e7;
 }
 
 .footer {
 	grid-area: foot;
+	background: darkslategrey;
 }
 
 div {
