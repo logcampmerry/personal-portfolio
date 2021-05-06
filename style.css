@@ -49,6 +49,7 @@ nav {
 	display: block;
 	background: darkslategrey;
 	padding: 1%;
+	border-bottom: 4px solid black;
 }
 
 nav a {
@@ -87,19 +88,19 @@ nav a:hover {
 div.lpanel {
 	float: left;
 	margin-left: 10%;
-	border: 2px solid white;
+	border: 4px solid white;
 }
 
 div.cpanel {
 	display: inline-block;
 	margin: 0 auto;
-	border: 2px solid white;
+	border: 4px solid white; 
 }
 
 div.rpanel{
 	float: right;
 	margin-right: 10%;
-	border: 2px solid white;
+	border: 4px solid white;
 }
 	
 div.panels {
@@ -126,7 +127,7 @@ img.panelcover:hover {
 }
 
 img.panelcover {
-	border: 1px solid white;
+	border: 2px solid white;
 	width: 100%;
 }
 
@@ -135,14 +136,15 @@ p.headblurb {
 	font-family: 'Roboto', sans-serif;
 	width: 40%;
 	margin: auto;
-	padding: 1%;
+	padding: 2%;
 }
 
 /* ABOUT ME */
 p.abme {
-	font-size: 25px;
-	margin-left: 2%;
-	width: 75%;
+	float: left;
+	font-size: 20px;
+	margin-left: 4%;
+	width: 45%;
 }
 
 /* PROJECTS */
@@ -157,10 +159,11 @@ img.portrait {
 	width: 10%;
 	float: left;
 	margin-left: 10%;
-	margin-top: 2%
+	margin-top: 7%
 }
 
 ul {
-	font-size: 25px;
-	margin-left: 2%;
+	font-size: 22px;
+	margin-right: 8%;
+	float: right;
 }
