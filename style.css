@@ -31,7 +31,7 @@ img.thumbnail {
 
 p.title {
 	width: 100%;
-	background: darkslategrey;
+	background: #402f4f;
 	color: powderblue;
 	font-size: 33px;
 	margin-top: 0px;
@@ -39,7 +39,7 @@ p.title {
 
 p.desc {
 	width: 100%;
-	background: darkslategrey;
+	background: #402f4f;
 	color: powderblue;
 	font-size: 22px;
     margin-top: 20%;
@@ -47,7 +47,7 @@ p.desc {
 /* NAVBAR */
 nav {
 	display: block;
-	background: darkslategrey;
+	background: #402f4f;
 	padding: 1%;
 	border-bottom: 4px solid black;
 }
