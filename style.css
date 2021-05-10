@@ -106,7 +106,6 @@ div.rpanel{
 div.panels {
 	text-align: center;
 	margin: auto;
-	padding: 5px;
 }
 
 .panels > div{
@@ -139,6 +138,11 @@ p.headblurb {
 	padding: 2%;
 }
 
+hr {
+	border: 20px solid #402f4f;
+	border-top: 3px solid black;
+}
+
 /* ABOUT ME */
 p.abme {
 	float: left;
@@ -166,4 +170,8 @@ ul {
 	font-size: 22px;
 	margin-right: 8%;
 	float: right;
+}
+
+div.footer h1 {
+	color: #402f4f;
 }
