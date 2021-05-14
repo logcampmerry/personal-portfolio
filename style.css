@@ -157,6 +157,11 @@ div.projects {
 	margin: auto;
 }
 
+div.wprojects {
+	display: flex;
+	align-items: center;
+}
+
 
 /* CONTACT */
 img.portrait {
