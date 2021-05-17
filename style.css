@@ -158,8 +158,8 @@ div.projects {
 }
 
 div.wprojects {
-	display: flex;
-	align-items: center;
+	display: block;
+	margin-left: 15%;
 }
 
 
